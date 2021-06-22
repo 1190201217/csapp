@@ -1,0 +1,4 @@
+readelf -a hello hello_elf
+readelf  -a hello.o  >hello.elf
+objdump -d -r hello.o >hello.asm
+objdump -d -r hello >hello_asm
